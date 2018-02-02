@@ -1,0 +1,24 @@
+$colorBrightnessChange: 10%;
+
+$grey: #4d4d4d;
+$lightGrey: lighten($grey, $colorBrightnessChange);
+$darkGrey: darken($grey, $colorBrightnessChange);
+$lighterGrey: #b3b3b3;
+$mediumGrey: #666;
+
+$reallyDark: #1a1a1a;
+
+$backgroundGrey: #e6e6e6;
+
+$orange: #ff931e;
+$lightOrange: lighten($orange, $colorBrightnessChange);
+$darkOrange: darken($orange, $colorBrightnessChange);
+
+$green: #7ac943;
+$lightGreen: lighten($green, $colorBrightnessChange);
+$darkGreen: darken($green, $colorBrightnessChange);
+
+$red: #fc4452;
+
+$blue: #3fa9f5;
+

@@ -1,0 +1,49 @@
+@import './variables';
+.green-text {
+  color: $green;
+}
+
+.red-text {
+  color: $red;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    .page-part-container {
+      .generic-card {
+        width: 100%;
+      }
+      .card-with-border {
+        width: 100%;
+      }
+      .card-with-heading {
+        width: 100%;
+      }
+    }
+    .option-body {
+      .two-columns .column {
+        width: 100%;
+        border: none;
+        &:last-child {
+          border-top: 1px solid $lighterGrey;
+        }
+      }
+      .three-columns .column {
+        width: 100%;
+        border-right: none;
+        border-top: 1px solid $lighterGrey;;
+        &:first-child {
+          border-top: none;
+        }
+        &:last-child {
+          border-top: 1px solid $lighterGrey;
+        }
+      }
+    }
+    .footer {
+      .sources {
+        padding: 30px !important;
+      }
+    }
+  }
+}
